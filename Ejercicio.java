@@ -18,7 +18,17 @@ public class Ejercicio{
 
                    array[i] = captura.nextInt();
                    
-           }            
+           }    
+
+           //Impresion Del Array
+
+           System.out.println("El array quedo de la siguiente manera: \n");
+
+           for(int i = 0; i < array.length; i++){
+
+                System.out.println("Posicion: " + i + " Valor: " + array[i]);
+
+           }        
 
         }
 
